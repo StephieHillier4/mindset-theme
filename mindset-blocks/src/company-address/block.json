@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mindset-blocks/company-address",
+	"version": "0.1.0",
+	"title": "Company Address",
+	"category": "text",
+	"icon": "location",
+	"description": "A block that outputs a company address",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+
+	"attributes": {
+		"svgIcon": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+
+	"textdomain": "mindset-blocks",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

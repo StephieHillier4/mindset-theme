@@ -268,10 +268,11 @@
 			}
 		},
 		"spacing": {
+			"blockGap": "0px",
 			"padding": {
 				"bottom": "0px",
-				"left": "1rem",
-				"right": "1rem",
+				"left": "0",
+				"right": "0",
 				"top": "0px"
 			}
 		},
