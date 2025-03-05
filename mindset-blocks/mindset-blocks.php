@@ -67,7 +67,7 @@ function fwd_render_service_posts( $attributes ) {
             echo '<nav class="service-nav"><ul>';
             while ( $query_nav->have_posts() ) : $query_nav->the_post();
                 ?>
-                <li><a href="#post-<?php the_ID(); ?>"><?php the_title(); ?></a></li>
+                <li><a href="#post-<?php get_the_ID(); ?>"><?php the_title(); ?></a></li>
                 <?php
             endwhile;
             echo '</ul></nav>';
