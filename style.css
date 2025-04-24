@@ -14,3 +14,40 @@ Text Domain: mindset-theme
 Update URI: false 
 */
 
+.sidebar-layout > *:first-child {
+    flex: 1 1 calc(100% - (15rem + 24px));
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+svg path {
+	fill: currentColor;
+}
+
+.scroll-top {
+	background: transparent;
+	border: none;
+	padding: 1rem;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+	transition: all ease 0.3s;
+	opacity: 0;
+	color: #fff200;
+}
+
+/* hack for floats */
+article.wp-block-group::after {
+	content: "";
+	display: table;
+	clear: both;
+}

@@ -1,4 +1,13 @@
 {
+	"customTemplates": [
+		{
+			"name": "page-no-side-bar",
+			"postTypes": [
+				"page"
+			],
+			"title": "Full Width Page"
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
